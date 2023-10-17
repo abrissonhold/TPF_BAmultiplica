@@ -1,8 +1,9 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-header { /*logo*/
+header {
+    /*logo*/
     font-family: 'Oxygen', sans-serif;
     font-weight: 1000;
     font-size: 30px;
@@ -53,6 +54,11 @@ nav a {
     color: #060029;
 }
 
+nav a :hover {
+    background-color: #ffffff;
+    color: #174487;
+}
+
 #fondoheader {
     max-width: 100%;
 }
@@ -90,7 +96,9 @@ footer a {
 
 /*diseño responsivo*/
 @media screen and (max-width:400px) {
-    nav, footer {
+
+    nav,
+    footer {
         flex-direction: column;
         align-items: center;
     }
