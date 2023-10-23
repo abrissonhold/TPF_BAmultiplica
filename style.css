@@ -81,6 +81,11 @@ P {
     font-family: 'Oxygen', sans-serif;
     font-weight: 400;
 }
+fieldset{
+    display: inline-block; 
+    margin-left: 40%;
+}
+
 
 footer {
     background-color: #1d164462;
