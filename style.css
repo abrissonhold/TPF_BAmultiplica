@@ -21,7 +21,7 @@ body {
     background-color: #aeb0c9;
     height: auto;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 
     font-family: 'Oxygen', sans-serif;
@@ -35,7 +35,7 @@ section {
     background-color: #aeb0c9;
     height: 200px;
     background-position: center;
-    background-size: cover;
+    background-size: auto;
 }
 
 nav {
@@ -100,11 +100,21 @@ footer a {
 }
 
 /*diseño responsivo*/
-@media screen and (max-width:400px) {
+@media screen and (max-width:600px) {
 
     nav,
     footer {
         flex-direction: column;
         align-items: center;
+    }    
+    nav a,
+    footer a{
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        height: 300px;
+        background-position: center;
+        background-size: cover;
     }
 }
