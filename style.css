@@ -19,7 +19,7 @@ body {
     padding: 0;
     background-image: url(images/background.jpg);
     background-color: #aeb0c9;
-    height: 100%;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,8 +81,9 @@ P {
     font-family: 'Oxygen', sans-serif;
     font-weight: 400;
 }
-fieldset{
-    display: inline-block; 
+
+fieldset {
+    display: inline-block;
     margin-left: 40%;
 }
 
