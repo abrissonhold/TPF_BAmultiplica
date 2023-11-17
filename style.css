@@ -42,8 +42,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
-
-nav a {
+a {
     margin: 2%;
     width: auto;
     height: auto;
@@ -54,9 +53,8 @@ nav a {
     color: #060029;
 }
 
-nav a :hover {
-    background-color: #ffffff;
-    color: #174487;
+a:hover {
+    color: #2f538a;
 }
 
 #fondoheader {
@@ -102,6 +100,9 @@ footer a {
 /*diseño responsivo*/
 @media screen and (max-width:600px) {
 
+    #fondoheader {
+        width: 10%;
+    }
     nav,
     footer {
         flex-direction: column;
