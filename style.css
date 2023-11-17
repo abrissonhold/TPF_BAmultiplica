@@ -47,6 +47,7 @@ section {
 
 nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
 }
 
@@ -103,6 +104,24 @@ footer a {
     margin: 2%;
     width: auto;
     height: auto
+}
+
+.card{
+    background-color: #5369808f;
+    color: #aeb0c9;
+}
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-footer {
+    text-align: center;
+    font-weight: bold;
 }
 
 /*diseño responsivo*/
