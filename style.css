@@ -106,10 +106,51 @@ footer a {
     height: auto
 }
 
-.card{
+form {
+    background-color: #1d164462;
+    padding: 20px;
+    border-radius: 10px;
+    width: 99%;
+}
+
+label {
+    display: block;
+    color: #060029
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.card {
     background-color: #5369808f;
     color: #aeb0c9;
 }
+
 .card-title {
     text-align: center;
     font-weight: bold;
