@@ -128,22 +128,14 @@ input {
     transition: border-color 0.3s;
 }
 
-input:focus {
-    border-color: #4CAF50;
-}
-
-button {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px;
-    border: none;
+.boton{
+    width: 10%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #45a049;
+    transition: border-color 0.3s;
 }
 
 .card {
